@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="logo2.png" type="image/gif" />
+  <title>Masooday's Car Culture</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#" style="font-weight: 600">Masooday's Car Culture</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">About</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Topics
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+            <li><a class="dropdown-item" href="#">Videos</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Auto Store</a></li>
+            <li><a class="dropdown-item" href="#">Workshop</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="SupportUs.html">Support</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/ContactUs.html">Contact Us</a></li>
+            <li><a class="dropdown-item" href="/Writeforus.html">Write for us</a></li>
+          </ul>
+        </li>
+      </ul>
+      </ul>
+    </div>
+
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    <div class="mx-2">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+      <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal2">SignUp</button>
+    </div>
+
+  </nav>
+
+
+
+  <!--Login Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Login to Masooday's Car Culture</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Button trigger modal -->
+
+
+<!--Signup Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Get an Account</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group">
+            <label for="cexampleInputPassword1">Confirm Password</label>
+            <input type="password" class="form-control" id="cexampleInputPassword1">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Creat Account</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Crousel or slider -->
+  <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/random/900x300/?blackbikes" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Welcome to the World</h2>
+          <h2>of Masooday</h2>
+          <p>INNOVATIVE,PROVOCATIVE AND CREATIVE AT THE SAME TIME </p>
+          <button class="btn btn-primary">AUCTION</button>
+          <button class="btn btn-danger">CAR SHOW</button>
+          <button class="btn btn-success">JOIN TEAM</button>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="color: black;">
+        <img
+          src="https://images.unsplash.com/photo-1541447270888-83e8494f9c06?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2FyfHx8fHx8MTY5ODE3NzI4NQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=900"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>The Best Blog</h2>
+          <h2>Site</h2>
+          <p>INNOVATIVE,PROVOCATIVE AND CREATIVE AT THE SAME TIME </p>
+          <button class="btn btn-primary">AUCTION</button>
+          <button class="btn btn-danger">CAR SHOW</button>
+          <button class="btn btn-success">JOIN TEAM</button>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="04.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Award Winning Blog </h2>
+          <h2>Site</h2>
+          <p>INNOVATIVE,PROVOCATIVE AND CREATIVE AT THE SAME TIME </p>
+          <button class="btn btn-primary">AUCTION</button>
+          <button class="btn btn-danger">CAR SHOW</button>
+          <button class="btn btn-success">JOIN TEAM</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- Box 1,2 -->
+  <div class="container-fluid my-4 d-flex">
+
+
+    <div class="col-6">
+      <div class="card shadow-sm">
+        <a href="image-link.html">
+          <svg class="bd-placeholder-img d-flex justify-content-center align-items-center card-img-top" width="150"
+            height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <image href="card1.jpg" width="100%" height="100%" />
+          </svg>
+        </a>
+
+        <div class="card-body justify-content-center align-items-center">
+          <h3 class="card-text">Car Insurance</h3>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-lg btn-outline-secondary">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="card shadow-sm">
+        <a href="image-link.html">
+          <svg class="bd-placeholder-img d-flex justify-content-center align-items-center card-img-top" width="150px"
+            height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <image href="card2.jpg" width="100%" height="100%" />
+          </svg>
+        </a>
+        <div class="card-body">
+          <h3 class="card-text">Car Registration</h3>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-lg btn-outline-secondary">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<!-- Box 3,4 -->
+
+  <div class="container-fluid my-4 d-flex">
+
+
+    <div class="col-6">
+      <div class="card shadow-sm">
+        <a href="image-link.html">
+          <svg class="bd-placeholder-img d-flex justify-content-center align-items-center card-img-top" width="150"
+            height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <image href="card1.jpg" width="100%" height="100%" />
+          </svg>
+        </a>
+
+        <div class="card-body justify-content-center align-items-center">
+          <h3 class="card-text">Car Inspection</h3>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-lg btn-outline-secondary">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="card shadow-sm">
+        <a href="image-link.html">
+          <svg class="bd-placeholder-img d-flex justify-content-center align-items-center card-img-top" width="150px"
+            height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <image href="card2.jpg" width="100%" height="100%" />
+          </svg>
+        </a>
+        <div class="card-body">
+          <h3 class="card-text">Car Finance</h3>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-lg btn-outline-secondary">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <div class="container">
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette d-flex justify-content-center align-items-center">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">It all Strated with a dream. <span
+            class="text-body-secondary">Things will blow your mind.</span></h2>
+        <p class="lead">As a child, I would spend hours poring over car magazines, memorizing the specifications
+          of every model I could find. I would also spend countless hours watching car shows and races,
+          dreaming of one day owning my own high-performance vehicle.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="abt1.jpeg" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette d-flex justify-content-center align-items-center">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Cars are more than just machines <span
+            class="text-body-secondary">They are a way of connecting with others</span></h2>
+        <p class="lead">As I grew older, my love for cars only intensified. I started working on my own cars,
+          learning the basics of mechanics and how to maintain and repair them. I also started participating
+          in amateur racing events, which gave me a chance to experience the thrill of driving at high speeds.
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="abt2.jpeg" alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette d-flex justify-content-center align-items-center">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Dreams are meant to be <span
+            class="text-body-secondary">Fulfilled.</span></h2>
+        <p class="lead">Today, my passion for cars is still as strong as ever. I am constantly reading about new
+          car models and technologies, and I am always looking for ways to improve my own vehicles. I also
+          enjoy sharing my knowledge of cars with others, and I am always happy to help people learn more
+          about the automotive world.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="abt3.jpeg" alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div>
+
+
+
+  </div>
+
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2023 Masooday, Inc</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
